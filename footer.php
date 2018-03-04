@@ -13,6 +13,10 @@
     <?php get_template_part( 'parts/icons', 'social' ); ?>
 
     <p class="copyright">&copy; <?php echo date( 'Y' ); ?> <?php echo get_bloginfo( 'name' ); ?></p>
+    <p>A page by
+      <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="This guy being Miles Heise.">this guy!</span>
+    </p>
+
 </footer>
 
 <?php wp_footer(); ?>

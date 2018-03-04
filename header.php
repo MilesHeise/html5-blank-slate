@@ -24,6 +24,10 @@
 <header class="site-header" role="banner">
     <p class="logo"><a href="<?php echo home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a></p>
 
+    <p>before you go navigating you better watch out for this
+      <span class="button warning"> Warning, yo!</span>
+    </p>
+
     <nav class="nav-main-wrap" role="navigation">
         <?php h5bs_primary_nav(); ?>
     </nav>
